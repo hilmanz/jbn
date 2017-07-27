@@ -1,0 +1,393 @@
+﻿
+@import url(../../vendor/eufont/eufont.css);
+a:focus, a:hover,a:active{
+	text-decoration:none !important;
+	outline:none;
+}
+*{
+	outline:none !important;
+}
+::-webkit-scrollbar {
+    width: 5px;
+}
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0,0,0,0.5);
+}
+#wpbody-content {
+	font-family:"Open Sans",sans-serif;
+}
+#customWrap *,
+#customWrap *:before,
+#customWrap *:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+		  outline:none;
+}
+#headerOption{
+	background:#cb8541;
+	overflow:hidden;
+	width:100%;
+	height:90px;
+	z-index:10;
+	left:0;
+}
+.cols{
+}
+#footerOption{
+	background:#34495e;
+	overflow:hidden;
+}
+#logoOption{
+	background: #bb640f ;
+	margin:0;
+	height:90px;
+	position:relative;
+	width:100%;
+}
+a:focus{
+	box-shadow:none;
+}
+#toplevel_page_eureka .wp-submenu .wp-first-item {
+	display : none;
+}
+#tab-master{
+	clear:both;
+}
+.optionAll {
+	position:absolute;
+	top:3px;
+	right:10px;
+}
+.caption {
+	background:#666;
+	color:#fff;
+	padding:20px;
+	margin:20px;
+	overflow:hidden;
+	border-radius:10px;
+}
+.caption h5 {
+	background:#333;
+	padding:15px;
+	display:table;
+	border-radius:8px;
+	font-size:14px;
+}
+.caption ul {
+	list-style:circle;
+	width:100px;
+	float:left;
+	padding:0 0 0 20px;
+}
+.caption ul li {
+	list-style:circle;
+}
+.noted {
+	border-radius:3px;
+	background:#FFFFE0;
+	border:solid 1px #E6DB55;
+	margin:5px 0 15px;
+	padding:10px 20px;
+	text-align:center;
+	color:#000;
+}
+/* ------------------------------------------------- */
+.tabs2 {
+	overflow: hidden;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.tabs2 li {
+	float: left;
+	margin:0 1px 0 0;
+}
+.tabs2 ul li > a {
+	position: relative;
+	padding:0 15px;
+	display:block;
+	line-height:30px;
+	float: left;
+	text-decoration: none;
+	color:#333;
+	outline:none;
+}
+.tabs a:hover{
+	color:#fff;
+}
+.visibletab{
+	display:block !important;
+}
+#masternav li{
+	float:none;
+	width:100%;
+}
+#masternav li a,#settingForm .button-primary{
+	font-size: 12px;
+	line-height: 50px;
+	border:none;
+	height:50px;
+	float:none;
+	text-transform:uppercase;
+	color:#fff;
+	padding:0 30px;
+	border-bottom:solid 1px #2f4052;
+}
+#settingForm .button-primary{
+	margin:30px 0 0 0;
+}
+#masternav li a:hover{
+	background:#2f4052;
+}
+#masternav li.activeTab>a{
+	background:#fff;
+	color:#425466;
+}
+#masternav li li a{
+	background:#2f4052;
+	padding:0 0 0 50px;
+	border-bottom:solid 1px #34495e;
+	line-height: 40px;
+	height: 40px;
+	font-size: 10px;
+	color:#ccc;
+}
+#masternav li li a.activesub,#masternav li li a:hover{
+	background:#24374b;
+}
+.submaster{
+	display:none;
+}
+.activeTab .submaster{
+	display:block;
+}
+.ui-tabs-panel{
+	clear:both;
+	padding:0;
+}
+.theContainer{
+	background:#fff;
+	padding:20px 30px;
+	clear:none;
+	display:none;
+	min-height:650px;
+	position:relative;
+	z-index:1000;
+}
+.tabs-entry2{
+	display:none;
+}
+.input-button{
+	background:#fff;
+	padding:20px 30px;
+}
+.theContainer-entry h3{
+	padding: 10px;
+	margin: 0 0 20px 0;
+	border-bottom:solid 1px #18ac8e;
+	text-transform: uppercase;
+	color: #18ac8e;
+	display:none;
+}
+.theContainer-entry .postboxs{
+	position:relative;
+}
+.input-row{
+	overflow: hidden;
+	clear: both;
+	padding: 10px 15px;
+	border-bottom: solid 1px #d8d8d8;
+	box-shadow: 0 1px 1px #fff;
+	position:relative;
+}
+.input-row>label{
+	display:block;
+	width:30%;
+	float:left;
+	font-size:12px;
+}
+.input-row label span{
+	display:block;
+	font-size:10px;
+	color:#999;
+}
+.input-field{
+	width:70%;
+	float:left;
+}
+.preview-image img{
+	max-width:150px !important;
+	width:auto;
+	margin:10px;
+}
+.defaultSkin .mceListBox .mceText{
+	background:#666 !important;
+}
+
+.theContainer input[type=text],.theContainer textarea{
+	width:60%;
+	display:inline-block;
+	vertical-align:top;
+	font-size:12px;
+}
+.information{
+	padding:15px 20px;
+	background:#666; color:#fff;
+}
+#tab2{
+	padding:20px;
+}
+#TB_window #TB_title:nth-child(2){
+	display:none;
+}
+.smallinfo{
+	font-size:11px;
+	display:block;
+	clear:both;
+	padding:0 5px;
+	color:#666;
+}
+.mce_styleselect{
+	display:none !important;
+}
+.buttons,.button2{
+	background:#2ea2cc;
+	padding:0 10px;
+	color:#fff;
+	text-decoration:none;
+	text-transform:uppercase;
+	font-size:10px;
+	border-radius:0;
+	display:inline-block;
+	line-height:27px;
+	height:27px;
+	border:none;
+	border-color:#0074a2;
+	border-bottom: solid 1px #2f4052;
+	cursor:pointer;
+}
+.buttons:hover{
+	background:#0280ad;
+}
+.button2{
+	background:none;
+	border:solid 2px #fff;
+	font-size:14px;
+	line-height:35px;
+	height:38px;
+	padding:0 20px;
+	margin:0 0 0 20px;
+}
+.button2:hover{
+	background:#fff;
+	color:#2ea2cc;
+}
+.fr{
+	float:right;
+}
+#headerOption .colRight{
+	padding: 24px 29px 0 0;
+}
+.popup{
+	display:none;
+}
+.popupContainer{
+	width:600px;
+	margin:0 auto;
+	background:#fff;
+	padding:20px;
+	overflow:hidden;
+}
+.iconContainer{
+	height:500px;
+	overflow:auto;
+}
+a.pbs{
+	cursor:pointer;
+	font-size:16px;
+}
+.glyph{
+	float: left;
+	margin: 1px;
+	text-align: center;
+	border-radius:5px;
+	width: 30px;
+	height: 30px;
+	background: #f3f3f3;
+}
+.glyph a{
+	color:#555;
+}
+.glyph a span:before{
+	display:block;
+	width: 30px;
+	height: 30px;
+	line-height:30px;
+}
+.glyph:hover{
+	background: #333;
+}
+.glyph:hover a{
+	color:#fff;
+}
+.glyph i{
+	display:none;
+}
+input[type=text].colorspicker {
+	margin: 0;
+	border:1px solid green;
+	width: 100px;
+	border-right: 20px solid green;
+}
+.tabs2 ul li a{
+	display: block;
+	background: #999;
+	color: #fff;
+	line-height: 35px;
+}
+.tabs2 ul li a:hover,.tabs2 ul li.ui-tabs-active a{
+	background: #18ac8e;
+}
+.tabs-entry2{
+	padding:10px 0;
+}
+.tabs2 .ui-tabs-panel{
+	background:#f3f3f3;
+	padding:0;
+	border:solid 1px #ddd;
+}
+.tabs2 .ui-tabs-nav{
+	margin:30px 0 0 0;
+}
+.tabs2 .tabs2 .ui-tabs-nav{
+	margin:0;
+}
+.tabs2 .tabs2{
+	padding:20px;
+}
+.theContainer span a:hover{
+	color:#000;
+}
+#adminmenuback{
+	z-index:1;
+}
+.theme-option_page_eureka-setting #message{
+	display:none;
+}
+.notice-success, div.updated{
+	opacity: 1;
+}
+.img_status img{
+	max-width: 200px;
+}
+.cmb_remove_file_button{
+	display: block;
+}
+.cmb_metabox input[type=text]{
+	width: 100%;
+}

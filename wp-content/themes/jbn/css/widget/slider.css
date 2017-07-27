@@ -1,0 +1,59 @@
+/*
+Theme Name: EUREKA!!
+Author: <a href="http://eureka.id" target="_blank">acitjazz</a>
+Version: 1.2
+*/
+/* ===============================PLUGIN================================ */
+#slider{
+	max-height:500px;
+	position:relative;
+	overflow:hidden;
+}
+.flexslider .slides > li{
+	position:relative;
+}
+.wrapslide{
+	position:absolute;
+	width:100%;
+	top:0;
+}
+.wrapTable{
+	min-height:500px;
+	display:table;
+	width:100%;
+	max-width:1300px;
+	margin:0 auto;
+}
+.slideContent {
+    display: table-cell;
+    vertical-align: middle;
+	color:#fff;
+}
+.contentBox {
+    margin-left: auto;
+    margin-right: auto;
+	display:inline-block;
+	width:50%;
+}
+.slideContent p{
+	font-size:16px;
+}
+.slideContent h2{
+	font-size:40px;
+	margin:0;
+}
+.slideContent .button{
+	margin:40px 0 0 0;
+}
+.pos-Left{
+	text-align:left;
+}
+.pos-Right{
+	text-align:right;
+}
+.pos-Center{
+	text-align:center;
+}
+.pos-Center .contentBox{
+	width:100%;
+}

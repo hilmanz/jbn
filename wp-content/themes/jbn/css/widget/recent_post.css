@@ -1,0 +1,39 @@
+/*
+Theme Name: EUREKA!!
+Author: <a href="http://eurekathemes.com" target="_blank">acitjazz</a>
+Version: 1.2
+*/
+/* ===============================PLUGIN================================ */
+.thumb-small img{
+	width:55px; height:55px;
+}
+.thumb-small{
+	width:55px; height:55px;
+	overflow:hidden;
+	border:solid 3px #fff;
+	float:left;
+	margin:0 10px 0 0;
+	box-shadow:0 1px 3px rgba(0,0,0,0.3);
+	border-radius:5px;
+}
+#recent-post .recent-entry{
+	margin:0 0 0 80px;
+}
+#recent-post h1.recent-title{
+	font-size:16px;
+    font-family: 'RobotoBold';
+	margin:0 0 0 0;
+}
+#recent-post .recentpost{
+	clear:both;
+	overflow:hidden;
+	padding:20px 0;
+	border-bottom:solid 1px #d8e2eb;
+	font-size:12px;
+}
+#recent-post p{
+	margin:0
+}
+#recent-post .recentpost:last-child{
+	border:none;
+}

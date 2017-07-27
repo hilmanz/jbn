@@ -1,0 +1,212 @@
+.pricetable-clear {
+	clear:both;
+	position:absolute;
+	height:16px;
+	width:100%;
+	bottom:0;
+}
+.pricetable {
+	position:relative;
+	margin:100px 0 50px 0;
+}
+.pricetable p {
+	margin:0;
+}
+.pricetable-subtitle {
+	padding: 10px 0;
+	background: #eee;
+	color:#333;
+	text-align:center;
+}
+.pricetable-subtitle p {
+	font-size:18px;
+}
+.pricetable .pricetable-inner {
+	position: relative;
+	display:table;
+	width:100%;
+	color:#949494;
+}
+.pricetable .pricetable-column {
+	float: left;
+	line-height: 1em;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	padding:0 10px;
+}
+.pricetable-featured {
+	position:relative;
+}
+.pricetable .pricetable-column.pricetable-featured .pricetable-column-inner {
+	position:relative;
+	background:#4c4543;
+	color:#fff;
+}
+.pricetable .pricetable-column.pricetable-featured .pricetable-feature {
+	border-top:solid 1px #433935;
+}
+.pricetable .pricetable-column.pricetable-featured .pricetable-price {
+}
+.pricetable .pricetable-column.pricetable-featured h3.pricetable-name {
+	color:#fff !important;
+}
+.pricetable .pricetable-column.pricetable-featured .pricetable-header {
+}
+.pricetable .pricetable-column.pricetable-standard.pricetable-last, .pricetable .pricetable-column.pricetable-standard.pricetable-before-featured {
+	border-right: none;
+}
+.pricetable-column-inner {
+	background:#fff;
+	position:relative;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	padding:30px 0;
+	box-shadow:0 2px 3px rgba(0,0,0,0.1);
+}
+.pricetable-column-inner:hover {
+	background:#f6f6f6;
+}
+.pricetable .pricetable-feature p.pricetable-feature-desc {
+	font-size:12px;
+}
+.pricetable .pricetable-feature p.pricetable-feature-title {
+	font-size:16px;
+}
+.pricetable h4.pricetable-price {
+	font-size: 40px;
+	padding: 0;
+	color: #fff;
+	margin: 0 auto;
+	position: relative;
+	width: 150px;
+	height: 150px;
+	border-radius: 500px;
+	line-height: 150px;
+	border:solid 5px;
+	box-shadow:0 0 30px rgba(0, 0, 0, 0.1);
+}
+.pricetable h3.pricetable-name {
+	margin: 0 0 0 0 !important;
+	padding:10px;
+	font-size:24px;
+	line-height:40px;
+	text-align: center;
+	color:#fff;
+	text-transform:uppercase;
+}
+.pricetable .pricetable-header {
+	text-align:center;
+	position:relative;
+	z-index:10;
+}
+.pricetable .pricetable-header p {
+	margin: 0;
+	color: #fff;
+	font-weight: bold;
+}
+.pricetable .pricetable-features {
+	position: relative;
+}
+.pricetable .pricetable-feature {
+	position: relative;
+	padding: 15px 0;
+	text-align:center;
+	font-size:14px;
+	border-top:solid 1px #f2f2f2;
+}
+.pricetable-button {
+	padding:20px 0;
+	clear:both;
+	text-align:center;
+}
+.pricetable-button .button {
+	border-radius:20px;
+}
+.pricetable br {
+	display: none;
+}
+.pricetable-featured .pricetable-button .button {
+	color:#fff;
+	border:solid 2px #fff;
+}
+.pricetable-featured .best-value{
+	display:block;
+}
+.best-value{
+	display:none;
+}
+/* ----- Ribbon Container ---------------------------------------*/ 
+	.best-value > div > div {
+	background : transparent;
+	height : 200px;
+	width : 200px;
+	position : absolute;
+	top : -10px;
+	right : 0;
+	overflow : hidden;
+}
+/* ----- Top Curl ---------------------------------------*/ 
+	.best-value > div > div:before {
+	  content: "";
+	  display: block;
+	  width: 30px;
+	  height: 10px;
+	  position: absolute;
+	  right: 98px;
+	  background: #a3350c;
+}
+/* ----- Right Curl ---------------------------------------*/ 
+	.best-value > div > div:after {
+	  content: "";
+	  display: block;
+	  width: 10px;
+	  height: 30px;
+	  position: absolute;
+	  right: 0px;
+	  top: 98px;
+	  background: #a3350c;
+}
+/* ----- Ribbon ---------------------------------------*/ 
+	.best-value > div > div > div {
+	width : 200px;
+	height : 40px;
+	position : relative;
+	top : 30px;
+	right : -50px;
+	z-index : 1;
+	overflow : hidden;
+	transform :rotate(45deg);
+	-ms-transform :rotate(45deg); /* IE 9 */
+	-moz-transform :rotate(45deg); /* Firefox */
+	-webkit-transform :rotate(45deg); /* Safari and Chrome */
+	-o-transform :rotate(45deg); /* Opera */
+	background:#d34e1d;
+	line-height: 40px;
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+}
+.best-value > div > div > div:after {
+  content: "";
+  display: block;
+  width: 200px;
+  height: 2px;
+  background: #8c2f0d;
+  z-index: 1000;
+  position: absolute;
+  top: 2px;
+}
+.best-value > div > div > div:before {
+  content: "";
+  display: block;
+  width: 200px;
+  height: 2px;
+  background: #8c2f0d;
+  z-index: 1000;
+  position: absolute;
+  bottom: 2px;
+}

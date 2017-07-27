@@ -1,0 +1,140 @@
+/*!
+ * Start Bootstrap - Simple Sidebar HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+/* Toggle Styles */
+#update-nag, .update-nag,#wpfooter,ul#adminmenu a.wp-has-current-submenu:after, ul#adminmenu>li.current>a.current:after{
+	display:none;
+}
+#wpcontent, #wpfooter{
+	margin-left:140px;
+}
+#wpbody-content{ padding:0;}
+#wrapper {
+    padding-left: 0;
+}
+#menu-toggle{
+	display:block;
+	width:40px; height:40px;
+	border-radius:100px;
+	background:#222;
+	color:#fff;
+	font-size:20px;
+	text-align:center;
+	margin:-20px 0 0 0;
+	position:absolute;
+	right:-70px;
+	top:50%;
+	opacity:0.7;
+}
+#menu-toggle:hover{
+	background:#333;
+	text-decoration:none;
+}
+#menu-toggle .icon-navicon:before{
+	line-height:40px;
+	width:44px; height:40px;
+	display:block;
+}
+#wrapper.toggled {
+}
+#sidebar-wrapper {
+    width: 20%;
+	float:left;
+    height: 100%;
+    background: #373737;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+	width:0%;
+}
+
+#page-content-wrapper {
+    width: 80%;
+	float:left;
+    padding: 0;
+}
+
+#wrapper.toggled #page-content-wrapper {
+	width:100%;
+}
+
+/* Sidebar Styles */
+
+.sidebar-nav {
+    top: 0;
+    margin: 0;
+    list-style: none;
+}
+.toggled .sidebar-nav{
+}
+.sidebar-nav li {
+    text-indent: 20px;
+    line-height: 40px;
+	margin:0;
+}
+
+.sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+	border-bottom:solid 1px #222;
+}
+.sidebar-nav li a span{
+	color:#999;
+	position:relative;
+	top:1px;
+}
+
+.sidebar-nav li a:hover {
+    text-decoration: none;
+    color: #fff;
+    background: rgba(255,255,255,0.2);
+}
+
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+    text-decoration: none;
+}
+
+.sidebar-nav > .sidebar-brand {
+    height: 65px;
+    font-size: 18px;
+    line-height: 60px;
+}
+
+.sidebar-nav > .sidebar-brand a {
+    color: #999999;
+}
+
+.sidebar-nav > .sidebar-brand a:hover {
+    color: #fff;
+    background: none;
+}
+@media(max-width:960px) {
+}
+@media(max-width:780px) {
+}
+@media(max-width:600px) {
+}
+
+@media(min-width:768px) {
+}
+@media only screen and (max-width: 667px) {
+.theContainer input[type=text], .theContainer textarea{
+	width:100%;
+}
+}
+@media screen and (max-width: 782px){
+	.theme-option_page_eureka-setting.auto-fold #wpcontent {
+	  position: relative;
+	  margin-left: 0;
+	  padding-left: 0;
+	}
+	#menu-toggle{ right:10px; display:none;}
+	#sidebar-wrapper{ width:100%; height:auto !important;}
+	#page-content-wrapper{ width:100%;}
+	#headerOption{ display:none;}
+}

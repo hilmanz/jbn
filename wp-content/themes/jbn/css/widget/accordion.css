@@ -1,0 +1,35 @@
+/*
+Theme Name: EUREKA!!
+Author: <a href="http://eureka.id" target="_blank">acitjazz</a>
+Version: 1.2
+*/
+/* ===============================PLUGIN================================ */
+.accordion-content{
+	padding:20px;
+	border:solid 1px #ddd;
+	border-top:none;
+	background:#fff;
+	position: relative;
+}
+.accordion-title{
+	border:solid 1px #ddd;
+	color:#aaa;
+	margin:15px 0 0 0;
+	font-weight:300;
+	padding:10px 15px 10px 60px;
+	cursor:pointer;
+	background:url(../../images/plus_acc.png) no-repeat #fff;
+	position: relative;
+	z-index: 10;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	font-size:16px;
+	text-transform:uppercase;
+}
+.ui-accordion-header-active,.accordion-title:hover{
+	background:url(../../images/minus-acc.png) no-repeat #fff;
+	color:#555;
+}
